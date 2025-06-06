@@ -1,0 +1,56 @@
+# Sistema de Encuestas de Satisfacción Anónimas
+# .gitignore - Protege información sensible y archivos temporales
+
+# Configuración sensible
+backend/config.php
+
+# Logs del sistema (crítico para anonimato)
+*.log
+logs/
+error.log
+access.log
+
+# Archivos temporales de PHP
+*.tmp
+*.temp
+.htaccess
+
+# Backups de base de datos
+*.sql.backup
+*.dump
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Directorios de IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Archivos de test locales
+test_local/
+debug/
+
+# Cache y sesiones PHP
+sessions/
+cache/
+tmp/
+
+# Dependencias si se añaden más tarde
+vendor/
+node_modules/
+
+# Configuraciones locales específicas
+config_local.php
+local_settings.php
+
+# Archivos de respaldo automático
+*~
+*.bak
+
+# Archivos de error de Apache/Nginx
+error_log
+access_log
